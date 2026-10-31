@@ -1,15 +1,14 @@
 [project]
-site_url = "https://www.example.com/"
+site_url = "https://gabcandido.github.io/gab-camp/"
 site_name = "Gab-Camp"
+site_description = "Materiais didáticos de programação e desenvolvimento web."
+site_author = "Gabriel Candido"
+
 docs_dir = "material-aluno"
 copyright = "© 2026 Gab-Camp. Todos os direitos reservados."
-# site_description = "Your project description"
-# site_author = "Your name"
 
-
-
-# repo_url = "https://github.com/user/repo"
-# repo_name = "user/repo"
+repo_url = "https://github.com/GabCandido/gab-camp"
+repo_name = "GabCandido/gab-camp"
 # edit_uri = "edit/main/docs/"
 
 nav = [
@@ -30,7 +29,7 @@ nav = [
 ]
 
 extra_css = ["stylesheets/extra.css"]
-# extra_javascript = ["javascripts/extra.js"]
+extra_javascript = ["javascripts/extra.js"]
 
 [project.theme]
 # variant = "classic"

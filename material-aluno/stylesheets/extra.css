@@ -280,3 +280,15 @@
   background-color: #59451f;
   color: #ffe09a;
 }
+
+/* 17. MODO DE LEITURA */
+
+/* Ocultar as duas barras laterais */
+body.hide-sidebars .md-sidebar {
+  display: none;
+}
+
+/* Permitir que o conteúdo ocupe o espaço disponível */
+body.hide-sidebars .md-content {
+  max-width: 100%;
+}
