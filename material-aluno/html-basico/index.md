@@ -1,4 +1,3 @@
-
 # HTML básico
 
 <badge color="warning">Em desenvolvimento</badge>
@@ -9,28 +8,15 @@ Neste curso, você conhecerá os fundamentos da linguagem HTML (*HyperText Marku
 
 O conteúdo combina explicações teóricas, construção acompanhada de páginas e desafios práticos que permitem aplicar os conhecimentos desenvolvidos ao longo das unidades.
 
-## Conteúdos
+## Organização do curso
 
-Os materiais estão organizados em uma sequência de aprendizagem. Cada conteúdo apresenta uma etapa do percurso.
+A aprendizagem acontece de forma progressiva: os conceitos são apresentados e explorados inicialmente, depois aplicados em atividades orientadas e, por fim, utilizados na resolução de desafios.
 
-| Conteúdo | Tipo |
-|---|---|
-| HTML: estrutura e conteúdo das páginas | Teoria |
-| Atributos HTML | Teoria |
-| Construindo uma página com HTML | Guia prático |
-| Depurando uma página de perfil | Desafio |
-| Depurando uma página de adoção | Desafio |
-| Conectando HTML e CSS | Teoria |
-| HTML Boilerplate | Teoria |
-| Codificação UTF-8 | Teoria |
-| Construindo o Cat Photo App | Guia prático |
-| Construindo uma página de receita | Desafio |
+Ao longo do percurso, você encontrará três tipos de materiais:
 
-## Como utilizar os materiais
-
-- **Teoria:** estude os conceitos e consulte os exemplos apresentados.
-- **Guia prático:** acompanhe a construção de uma página, aplicando os conhecimentos passo a passo.
-- **Desafio:** desenvolva uma atividade de forma autônoma, utilizando o que aprendeu.
+- **Teoria:** apresenta os conceitos fundamentais e seus exemplos.
+- **Guia prático:** acompanha a construção de páginas, aplicando os conhecimentos passo a passo.
+- **Desafio:** propõe atividades para desenvolver de forma autônoma, utilizando o que foi aprendido.
 
 Comece pelo primeiro conteúdo e siga a sequência proposta.
 
