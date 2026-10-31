@@ -1,0 +1,263 @@
+/* =========================================================
+   GAB-CAMP — IDENTIDADE VISUAL
+   ========================================================= */
+
+
+/* 1. TEMA CLARO
+   ========================================================= */
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #F2F5F7;
+  --md-default-bg-color--light: #F8FAFB;
+  --md-default-fg-color: #263B49;
+  --md-default-fg-color--light: #526777;
+
+  --md-primary-fg-color: #173B57;
+  --md-primary-fg-color--light: #315D7A;
+  --md-primary-fg-color--dark: #102A3C;
+
+  --md-accent-fg-color: #168F83;
+  --md-accent-fg-color--transparent: #20A89A1A;
+
+  --md-code-bg-color: #E6EDF1;
+  --md-code-fg-color: #263B49;
+
+  /* Cabeçalho */
+  --gab-header-bg: #173B57;
+  --gab-header-fg: #FFFFFF;
+}
+
+
+/* 2. TEMA ESCURO
+   ========================================================= */
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #17232D;
+  --md-default-bg-color--light: #1E2D38;
+  --md-default-fg-color: #E1E9EE;
+  --md-default-fg-color--light: #B2C2CC;
+
+  --md-primary-fg-color: #173B57;
+  --md-primary-fg-color--light: #315D7A;
+  --md-primary-fg-color--dark: #102A3C;
+
+  --md-accent-fg-color: #45C4B5;
+  --md-accent-fg-color--transparent: #45C4B51A;
+
+  --md-code-bg-color: #223440;
+  --md-code-fg-color: #E1E9EE;
+
+  /* Cabeçalho */
+  --gab-header-bg: #101C26;
+  --gab-header-fg: #E1E9EE;
+}
+
+
+/* 3. TIPOGRAFIA
+   ========================================================= */
+
+.md-typeset {
+  font-size: 0.75rem;
+  line-height: 1.75;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-weight: 650;
+  letter-spacing: -0.025em;
+}
+
+.md-typeset h1 {
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset p {
+  margin-bottom: 1rem;
+}
+
+
+/* 4. CABEÇALHO
+   ========================================================= */
+
+/* 4. CABEÇALHO */
+[data-md-color-scheme="default"] .md-header {
+  background-color: #438ac0;
+  color: #FFFFFF;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #101C26;
+  color: #FFFFFF;
+}
+
+.md-header__title,
+.md-header__button,
+.md-header__topic,
+.md-header .md-icon {
+  color: #FFFFFF !important;
+}
+
+
+/* 5. BARRA DE ABAS
+   ========================================================= */
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* 7. NAVEGAÇÃO
+   ========================================================= */
+
+.md-nav__link {
+  transition: color 0.2s ease;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: var(--md-accent-fg-color) !important;
+}
+
+.md-nav__item--active > .md-nav__link {
+  font-weight: 700;
+}
+
+
+/* 8. LINKS
+   ========================================================= */
+
+.md-typeset a {
+  color: #176F68;
+  font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #65D5C7;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
+/* 9. BOTÕES
+   ========================================================= */
+
+.md-typeset .md-button {
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.md-typeset .md-button:hover {
+  transform: translateY(-1px);
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  color: #FFFFFF !important;
+}
+
+
+/* 10. CÓDIGO
+   ========================================================= */
+
+.md-typeset pre {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+
+.md-typeset code {
+  border-radius: 4px;
+}
+
+
+/* 11. TABELAS
+   ========================================================= */
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+
+/* 12. CAIXAS INFORMATIVAS
+   ========================================================= */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+
+/* 13. IMAGENS
+   ========================================================= */
+
+.md-typeset img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* 14. RODAPÉ */
+
+/* Tema claro */
+[data-md-color-scheme="default"] .md-footer {
+  background-color: #438AC0;
+  color: #FFFFFF;
+}
+
+/* Tema escuro */
+[data-md-color-scheme="slate"] .md-footer {
+  background-color: #102A3C;
+  color: #FFFFFF;
+}
+
+/* Textos e ícones */
+.md-footer,
+.md-footer a,
+.md-footer .md-icon,
+.md-footer-meta,
+.md-footer-meta a {
+  color: #FFFFFF !important;
+}
+
+
+/* 15. RESPONSIVIDADE
+   ========================================================= */
+
+@media screen and (max-width: 768px) {
+  .md-typeset {
+    font-size: 0.72rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.7rem;
+  }
+
+  .md-typeset h2 {
+    font-size: 1.35rem;
+  }
+}

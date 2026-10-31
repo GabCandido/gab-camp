@@ -1,0 +1,14 @@
+# Ambiente virtual Python
+.venv/
+
+# Cache
+.cache/
+__pycache__/
+*.py[cod]
+
+# Site gerado pelo Zensical
+site/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
