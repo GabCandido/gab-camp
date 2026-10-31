@@ -261,3 +261,22 @@
     font-size: 1.35rem;
   }
 }
+
+/* 16. SELOS DE STATUS */
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25em 0.7em;
+  border-radius: 0.35rem;
+  background-color: #fff0c2;
+  color: #805600;
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* Tema escuro */
+[data-md-color-scheme="slate"] .status-badge {
+  background-color: #59451f;
+  color: #ffe09a;
+}

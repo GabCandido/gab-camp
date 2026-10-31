@@ -13,7 +13,7 @@ Explore os cursos disponíveis e escolha um percurso de aprendizagem.
 
 ### HTML básico
 
-<badge color="warning">Em desenvolvimento</badge>
+<span class="status-badge">Em desenvolvimento</span>
 
 Conheça os fundamentos do HTML e aprenda a estruturar páginas para a Web. O curso aborda elementos, atributos, organização de conteúdo e construção de páginas HTML.
 

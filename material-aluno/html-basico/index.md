@@ -1,6 +1,6 @@
 # HTML básico
 
-<badge color="warning">Em desenvolvimento</badge>
+<span class="status-badge">Em desenvolvimento</span>>
 
 ## Sobre o curso
 
